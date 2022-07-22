@@ -36,8 +36,8 @@ standardPriceRadio.addEventListener('click', function() {
   variable2.textContent = 'Actual Price';
   variable3.textContent = 'Actual Quantity';
   priceVariance = v1;
-  deposits = v2;
-  deposits = v3;
+  actualPrice = v2;
+  actualQuantity = v3;
 });
 
 actualPriceRadio.addEventListener('click', function() {
